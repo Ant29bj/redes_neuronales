@@ -18,7 +18,7 @@ public class Red {
         float pesos;
         for (Integer i = 0; i< this.numNodos; i++){
             pesos = random.nextFloat();
-            Nodo newNodo = new Nodo(pesos);
+            Nodo newNodo = new Nodo(pesos, null);
             this.nodoArray.add(newNodo);
         }
     }

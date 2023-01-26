@@ -2,10 +2,11 @@ package nodos;
 
 public class Nodo {
 
-    private Float peso;
+    public Double limite;
+    public Double pesos[];
 
-    public Nodo(Float
-                        peso) {
-        this.peso = peso;
+    public Nodo(double limite, Double[] andPesos) {
+        this.limite = limite;
+        this.pesos = andPesos;
     }
 }
